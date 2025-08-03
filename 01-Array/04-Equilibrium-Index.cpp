@@ -1,5 +1,4 @@
 
-
 // 1. Best: using total Sum
 // Time: O(n)
 // Space: O(1) (no extra space used except variables)
