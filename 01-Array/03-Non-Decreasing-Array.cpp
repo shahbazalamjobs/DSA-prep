@@ -1,3 +1,17 @@
+
+// Given an array nums, return true if the array can become non-decreasing by modifying at most one element, otherwise return false.
+/*
+
+Input: nums = [4,2,3]
+Output: true
+Explanation: Modify 4 to 2 → [2,2,3] is non-decreasing.
+
+Input: nums = [4,2,1]
+Output: false
+Explanation: Needs 2 modifications → not allowed.
+
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -44,3 +58,4 @@ int main()
 
     return 0;
 }
+
