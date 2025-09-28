@@ -1,4 +1,17 @@
 
+// An equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes.
+
+/*
+Input:  A = [-7, 1, 5, 2, -4, 3, 0]
+Output: 3
+Explanation:
+    sum of A[0..2] = (-7 + 1 + 5) = -1
+    sum of A[4..6] = (-4 + 3 + 0) = -1
+    So index 3 is an equilibrium index.
+*/
+
+    
+
 // 1. Best: using total Sum
 // Time: O(n)
 // Space: O(1) (no extra space used except variables)
@@ -113,4 +126,5 @@ int main()
     int equilibriumidx = findEquilibriumIdx(arr, n);
     cout << equilibriumidx << endl;
     return 0;
+
 }
