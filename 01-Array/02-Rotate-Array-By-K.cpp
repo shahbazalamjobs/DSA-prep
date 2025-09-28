@@ -1,5 +1,5 @@
 
-// 1. rotata array by k right reversal algorithm
+// 1. Rotate Array by k right reversal algorithm
 
 // Time Complexity	O(n)
 // Space Complexity O(1)
