@@ -88,7 +88,7 @@ int main()
     return 0;
 }
 
-// 2. rotata array by k right using temporary array
+// 2. Rotate array by k right using temporary Array
 
 // Time Complexity: O(n)
 // Space Complexity: O(k) since k array element needs to be stored in temp array
