@@ -49,7 +49,7 @@ int main()
     return 0;
 }
 
-// 2. rotata array by k right using array
+// 2. Rotate Array by k left using array
 
 #include <iostream>
 using namespace std;
