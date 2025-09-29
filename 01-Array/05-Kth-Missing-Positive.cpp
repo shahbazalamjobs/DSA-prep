@@ -3,6 +3,15 @@ You are given: A sorted array of distinct positive integers (say arr).
 An integer k. Your task is to find the kth missing positive number that does not appear in arr.
 */
 
+// arr = [2, 3, 4, 7, 11]  &  k = 5
+
+/*
+Positive numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 …
+Present in arr: 2, 3, 4, 7, 11
+Missing: 1, 5, 6, 8, 9, 10 …
+*/
+
+
 // 1. Brute Force - Simplest
 
 // Time	O(k + n)
@@ -127,3 +136,4 @@ int main()
     return 0;
 
 }
+
