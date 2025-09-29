@@ -9,6 +9,8 @@ An integer k. Your task is to find the kth missing positive number that does not
 Positive numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 …
 Present in arr: 2, 3, 4, 7, 11
 Missing: 1, 5, 6, 8, 9, 10 …
+
+5th missing number = 9
 */
 
 
@@ -136,4 +138,5 @@ int main()
     return 0;
 
 }
+
 
