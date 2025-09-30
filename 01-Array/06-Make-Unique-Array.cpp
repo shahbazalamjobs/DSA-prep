@@ -1,3 +1,9 @@
+
+// You are given an array of integers. You need to make all the elements in the array unique.
+// In one operation, you can remove an element from the array.
+// Your task is to find the minimum number of elements you must remove so that all elements in the array become unique.
+
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -34,3 +40,4 @@ int main() {
 
     return 0;
 }
+
