@@ -22,6 +22,10 @@ No removals needed → 0.
 
 */
 
+// 1. 
+// TC = O(n)
+// SC = O(n)
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -58,5 +62,6 @@ int main() {
 
     return 0;
 }
+
 
 
