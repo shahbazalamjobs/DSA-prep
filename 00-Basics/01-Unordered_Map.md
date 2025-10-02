@@ -1,4 +1,3 @@
-Got it 👍 Let’s go over the **basics of `set` in C++**.
 
 ---
 
@@ -124,5 +123,3 @@ auto ub = s.upper_bound(15);  // first element > 15
 * Good for when you need **fast lookup + uniqueness**.
 
 ---
-
-Would you like me to also make a **comparison with `unordered_set`** (hash-based, O(1) avg lookup) so you know when to use which?
