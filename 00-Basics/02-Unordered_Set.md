@@ -1,6 +1,4 @@
 
----
-
 ## 🔹 What is `set` in C++?
 
 * `set` is a **container** in C++ (part of STL).
@@ -123,3 +121,18 @@ auto ub = s.upper_bound(15);  // first element > 15
 * Good for when you need **fast lookup + uniqueness**.
 
 ---
+
+
+
+| Operation                   | Time Complexity | Notes                                  |
+| --------------------------- | --------------- | -------------------------------------- |
+| `insert(x)`                 | **O(log n)**    | Inserts unique element in sorted order |
+| `erase(x)`                  | **O(log n)**    | Removes element if found               |
+| `find(x)`                   | **O(log n)**    | Search element                         |
+| `count(x)`                  | **O(log n)**    | Since only 0 or 1 occurrence           |
+| `size()`                    | **O(1)**        | Directly stored                        |
+| `empty()`                   | **O(1)**        | Just checks flag                       |
+| `clear()`                   | **O(n)**        | Removes all elements                   |
+| Iterating over all elements | **O(n)**        | Elements are in sorted order           |
+| `lower_bound(x)`            | **O(log n)**    | First element ≥ x                      |
+| `upper_bound(x)`            | **O(log n)**    | First element > x                      |
