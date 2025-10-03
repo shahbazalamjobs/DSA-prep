@@ -14,11 +14,14 @@ Matrix:
 
 Now check each 0:
 
-At (0,1): Neighbors → left=1, right=1 → contributes 2
-At (1,0): Neighbor → down=1 → contributes 1
-At (1,2): Neighbor → down=1 → contributes 1
-At (2,1): Neighbors → left=1, right=1 → contributes 2
-👉 Total coverage = 2 + 1 + 1 + 2 = 6
+Step 1: Check each 0 and count adjacent 1s
+
+(0,1) → 0 : Neighbors: left=1, right=1, down=1 → 3
+(1,0) → 0 : Neighbors: up=1, right=1, down=1 → 3
+(1,2) → 0 : Neighbors: up=1, left=1, down=1 → 3
+(2,1) → 0 : Neighbors: left=1, right=1, up=1 → 3
+
+👉 Total coverage = 3 + 3 + 3 + 3 = 12
 
 */
 
@@ -63,4 +66,5 @@ int coverageOfMatrix(vector<vector<int>> &mat) {
 
     return coverage;
 }
+
 
