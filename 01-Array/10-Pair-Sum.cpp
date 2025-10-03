@@ -7,7 +7,6 @@ A target number.
 
 👉 Find two numbers in the array that add up to the target,
 and return their indices.
-
 */
 
 // 1. Hash Map (unordered_map) -> Most Optimized -> Work for unsorted array as well
@@ -123,3 +122,4 @@ vector<int> twoSum(int n, vector<int> &arr, int target)
     return {-1, -1};
 
 }
+
