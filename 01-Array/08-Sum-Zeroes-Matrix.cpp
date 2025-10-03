@@ -32,6 +32,8 @@ Step 1: Check each 0 and count adjacent 1s
 
 
 #include <bits/stdc++.h> 
+using namespace std;
+
 int coverageOfMatrix(vector<vector<int>> &mat) {
     // Write your code here.
 
@@ -40,7 +42,7 @@ int coverageOfMatrix(vector<vector<int>> &mat) {
 
     int col = mat[0].size();
 
-    int i, j, coverage = 0;
+    int coverage = 0;
 
     for(int i=0; i< row; i++) {
         for(int j=0; j<col; j++) {
@@ -66,5 +68,6 @@ int coverageOfMatrix(vector<vector<int>> &mat) {
 
     return coverage;
 }
+
 
 
