@@ -1,3 +1,26 @@
+/*
+
+You are given a 2D grid of 0s and 1s.
+For each 0, count how many 1s are directly adjacent (top, bottom, left, right).
+The total of these counts is the coverage.
+
+
+E.g.
+
+Matrix:
+1 0 1
+0 1 0
+1 0 1
+
+Now check each 0:
+
+At (0,1): Neighbors → left=1, right=1 → contributes 2
+At (1,0): Neighbor → down=1 → contributes 1
+At (1,2): Neighbor → down=1 → contributes 1
+At (2,1): Neighbors → left=1, right=1 → contributes 2
+👉 Total coverage = 2 + 1 + 1 + 2 = 6
+
+*/
 
 // 1. Sum Zeroes of a vector 
 
@@ -40,3 +63,4 @@ int coverageOfMatrix(vector<vector<int>> &mat) {
 
     return coverage;
 }
+
