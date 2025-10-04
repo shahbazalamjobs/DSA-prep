@@ -1,7 +1,4 @@
 
-**C++ vectors**
-
----
 
 ## **1. What is a vector?**
 
