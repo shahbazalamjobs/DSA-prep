@@ -57,7 +57,7 @@ int main()
     return 0;
 }
 
-// 2. using 2 pointers (for sorted array)
+// 2. using 2 pointers (for sorted array) if unsorted then sort the array
 // Time Complexity: O(nlogn) + O(n) = O(nlogn)
 // Space Complexity: O(1)
 
@@ -122,5 +122,6 @@ vector<int> twoSum(int n, vector<int> &arr, int target)
     return {-1, -1};
 
 }
+
 
 
