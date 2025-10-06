@@ -1,4 +1,7 @@
 
+// Given two integer arrays nums1 and nums2, return an array of unique elements that appear in both arrays.
+// The order of output does not matter.
+
 
 // Intersection of Arrays
 
@@ -164,3 +167,4 @@ int main()
 
     return 0;
 }
+
