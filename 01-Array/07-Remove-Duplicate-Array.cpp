@@ -26,7 +26,8 @@ and Therefore return 4 after assigning [1,2,3,4] in the beginning of the array.
 /*
  Solution 1: Brute Force
 
-Intuition: We have to think of a data structure that does not store duplicate elements. So can we use a Hash set? Yes! We can. As we know HashSet only stores unique elements.
+Intuition: We have to think of a data structure that does not store duplicate elements. 
+So can we use a Hash set? Yes! We can. As we know HashSet only stores unique elements.
 
 Approach:
 
@@ -117,4 +118,5 @@ int main()
     {
         cout << arr[i] << " ";
     }
+
 }
