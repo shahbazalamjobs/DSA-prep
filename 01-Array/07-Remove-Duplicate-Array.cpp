@@ -48,9 +48,9 @@ using namespace std;
 int removeDuplicates(int arr[], int n)
 {
     set<int> set;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)  // n log n 
     {
-        set.insert(arr[i]);
+        set.insert(arr[i]);   // O(log m) , m is the number of elements currently in the set.
     }
     int k = set.size();
     int j = 0;
@@ -120,3 +120,4 @@ int main()
     }
 
 }
+
