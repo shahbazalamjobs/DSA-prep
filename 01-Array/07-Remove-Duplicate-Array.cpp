@@ -42,13 +42,18 @@ Now put all elements of the set in the array from the starting of the array.
 // Time complexity: O(n*log(n))+O(n)  or O(n*log(n)) as O(n*log(n)) grows faster than O(n)
 // Space Complexity: O(n)
 
+
 #include <bits/stdc++.h>
 
 using namespace std;
 int removeDuplicates(int arr[], int n)
 {
     set<int> set;
-    for (int i = 0; i < n; i++)  // n log n 
+
+// i → points to the position of the last unique element found so far
+// j → scans through the array looking for the next different element
+
+ for (int i = 0; i < n; i++)  // n log n 
     {
         set.insert(arr[i]);   // O(log m) , m is the number of elements currently in the set.
     }
@@ -120,4 +125,5 @@ int main()
     }
 
 }
+
 
