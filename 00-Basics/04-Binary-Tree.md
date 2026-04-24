@@ -21,6 +21,20 @@ A **Binary Tree** is a data structure where:
     3   7
 ```
 
+```
+int main() {
+    // Creating nodes
+    Node* root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+    root->left->left = new Node(4);
+    root->left->right = new Node(5);
+
+    cout << "Tree created successfully!";
+    return 0;
+}
+```
+
 ### 🧠 Key Points
 
 * Top node = **root**
